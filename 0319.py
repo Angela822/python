@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 # 下載 Yahoo 首頁內容
 r = requests.get('http://www.books.com.tw/web/sys_bkmtop/books/')
 
-
 # 開啟檔案
 fp = open("bookstest.txt", "a")
 # 確認是否下載成功
